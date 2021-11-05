@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LoginUsuario</name>
+    </assembly>
+    <members>
+        <member name="M:LoginUsuario.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Obtener Usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LoginUsuario.Controllers.UsuariosController.GetUsuario(System.Int32)">
+            <summary>
+            Obtener Usuario Individual por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoginUsuario.Controllers.UsuariosController.Registro(LoginUsuario.Models.Dto.UsuarioRegistronDto)">
+            <summary>
+            Registro de usuario
+            </summary>
+            <param name="usuarioRegistronDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LoginUsuario.Controllers.UsuariosController.Login(LoginUsuario.Models.Dto.UsuarioLoginDto)">
+            <summary>
+            Iniciar sesion con usuario
+            </summary>
+            <param name="usuarioLoginDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
